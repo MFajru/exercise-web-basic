@@ -1,0 +1,96 @@
+/**********************/
+/*     over 640px     */
+/**********************/
+@media only screen and (min-width: 640px) {
+}
+
+/**********************/
+/*     over 768px     */
+/**********************/
+@media only screen and (min-width: 768px) {
+}
+
+/***********************/
+/*     over 1024px     */
+/***********************/
+@media only screen and (min-width: 1024px) {
+  /* PUBLIC */
+  .container {
+    padding: 0 8%;
+    max-width: 1280px;
+  }
+
+  .section__title {
+    font-size: 2rem;
+  }
+
+  .btn {
+    font-size: 1.125rem;
+    padding: 0.5rem 3.75rem;
+  }
+
+  /* HERO SECTION */
+  .hero {
+    justify-content: space-between;
+  }
+
+  .hero__text {
+    max-width: 45%;
+  }
+
+  .hero__text__title {
+    font-size: 2.5rem;
+  }
+
+  .hero__img {
+    display: flex;
+  }
+
+  /* POPULAR PLACES */
+  .popular__places__card__text__title {
+    font-size: 1.375rem;
+  }
+
+  .popular__places__card__text__subtitle {
+    font-size: 1rem;
+  }
+
+  /* COMFORT */
+  .comfort__categories {
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  .comfort__categories__card__text__title {
+    font-size: 1.375rem;
+  }
+
+  .comfort__categories__card__text__subtitle {
+    font-size: 1rem;
+  }
+
+  /* FOOTER */
+  .footer__container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .footer__menu {
+    flex-direction: row;
+  }
+
+  .footer__left {
+    width: 25%;
+  }
+}
+
+/**********************/
+/*     over 1280px     */
+/**********************/
+@media only screen and (min-width: 1280px) {
+}
+
+/***********************/
+/*     over 1536px     */
+/***********************/
+@media only screen and (min-width: 1536px) {
+}

@@ -1,0 +1,247 @@
+* {
+}
+
+:root {
+  --primaryColor: #0042c8;
+  --primaryTextColor: #152c5b;
+  --secondaryTextColor: #717171;
+}
+
+h1 {
+  font-size: 1.5rem;
+  color: var(--primaryTextColor);
+  font-weight: 500;
+  line-height: normal;
+}
+
+body {
+  font-family: "Poppins";
+}
+
+/* Used by many sections */
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 4%;
+}
+
+.section__title {
+  color: var(--primaryTextColor);
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.25rem;
+  text-align: center;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.card__text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.footer__subtext {
+  color: var(--secondaryTextColor);
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.btn {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 8px;
+  background-color: var(--primaryColor);
+  text-decoration: none;
+  margin-top: 1.5rem;
+  padding: 0.4rem 2.5rem;
+}
+
+/* Hero Section */
+
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 0.88rem;
+  margin-top: 4rem;
+}
+
+.hero__text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.875rem;
+}
+
+.hero__sub-text {
+  color: var(--secondaryTextColor);
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+.hero__img {
+  display: none;
+}
+
+/* Most popular places */
+
+.popular {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 7.5rem;
+}
+
+.popular__places {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  row-gap: 1.8rem;
+  column-gap: 1rem;
+}
+
+.popular__places__card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.popular__places__card__img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+.popular__places__card__text__title {
+  color: var(--primaryTextColor);
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.popular__places__card__text__subtitle {
+  color: var(--secondaryTextColor);
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* COMFORT SECTION */
+
+.comfort {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 6.25rem;
+}
+
+.comfort__categories {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(8.5rem, 1fr));
+  column-gap: 1rem;
+  row-gap: 1.75rem;
+}
+
+.comfort__categories__card {
+  display: flex;
+  flex-direction: column;
+}
+
+.comfort__categories__card__img {
+  width: 100%;
+  height: 100%;
+}
+
+.comfort__categories__card__text__title {
+  color: var(--Primary-Text, #152c5b);
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.comfort__categories__card__text__subtitle {
+  color: var(--Secondary-Text, #717171);
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* FOOTER */
+.footer {
+  margin-top: 6.25rem;
+}
+
+.footer__container {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.footer__logo {
+  color: var(--Primary, #0042c8);
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.footer__subtitle {
+  color: var(--Secondary-Text, #717171);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 0.5rem;
+}
+
+.footer__social {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.25rem;
+  gap: 1.25rem;
+}
+
+.footer__social__account {
+  display: flex;
+  gap: 0.1rem;
+  align-items: center;
+}
+
+.footer__social__account__icon {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.footer__menu {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.footer__menu__detail {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.footer__menu__detail__title {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 0.1rem;
+}
+
+.copyright {
+  font-size: 0.625rem;
+  text-align: center;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
